@@ -30,14 +30,14 @@ button {
 # =====================================
 # Load Model
 # =====================================
-model_path = "customer_churn_prediction_file/churn_model.pkl"
+model_path = "churn_model.pkl"
 with open(model_path, "rb") as file:
     model = pickle.load(file)
 
 # =====================================
 # Load Cleaned Dataset (for column reference)
 # =====================================
-data_path = "telecom_customer_churn_CSV/cleaned_telco_churn.csv"
+data_path = "cleaned_telco_churn.csv"
 df = pd.read_csv(data_path)
 
 # =====================================
@@ -164,3 +164,4 @@ if st.button("🔍 Predict Churn"):
 # =====================================
 st.divider()
 st.caption("📘 Built using Machine Learning & Streamlit | Customer Churn Prediction Project")
+
