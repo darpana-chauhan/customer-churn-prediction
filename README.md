@@ -79,7 +79,7 @@ streamlit run app.py
 The application is deployed using Streamlit Community Cloud
 (or can also be deployed on Hugging Face Spaces).
 
-🔗 Live Demo: [(https://customer-churn-prediction-jwnhtaythyjdmdrgabtb3x.streamlit.app/)]
+🔗 Live Demo: https://customer-churn-prediction-jwnhtaythyjdmdrgabtb3x.streamlit.app/
 
 ---
 
